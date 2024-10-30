@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surig - Page 3</title>
+    <link rel="stylesheet" href="page2style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header data-aos="fade-down">
+      <nav>
+        <div class="logo">Danesse Niña</div>
+        <ul class="nav-links">
+          <li><a href="#music">Music</a></li>
+          <li><a href="#gallery">Photos</a></li>
+          <li><a href="#video">Videos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="artists">
+      <div class="music-div">
+        <div class="title-music" data-aos="fade-up">
+          <h1 class="first-line">Favorite Artists</h1>
+        </div>
+        <div class="display-music" data-aos="fade-up">
+          <div class="music-box">
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/artist/4cS8r9JlwhqLafUWAXkzHx?utm_source=generator"
+              width="100%"
+              height="352"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="music-box">
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/artist/1Nv875EklW8XLTduI6I3Js?utm_source=generator"
+              width="100%"
+              height="352"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="music-box">
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/artist/6HvZYsbFfjnjFrWF950C9d?utm_source=generator"
+              width="100%"
+              height="352"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+        <div class="display-music" data-aos="fade-up">
+          <div class="music-box">
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/artist/1U1el3k54VvEUzo3ybLPlM?utm_source=generator"
+              width="100%"
+              height="352"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="music-box">
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/artist/3sHvvFIzt6FKUQuksXhZn3?utm_source=generator&theme=0"
+              width="100%"
+              height="352"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="music-box">
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/artist/5D5Qbe1lf3aMnLsPSzXItu?utm_source=generator"
+              width="100%"
+              height="352"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="music">
+      <div class="title-music">
+        <h1 class="first-line" data-aos="fade-up">Top 3 Favorite Songs</h1>
+      </div>
+      <div class="songs">
+        <!-- First Song -->
+
+        <div class="container-song">
+          <div class="music-player">
+            <nav id="music-nav">
+              <div class="circle">
+                <i class="bx bxs-chevron-left"></i>
+              </div>
+              <div class="circle">
+                <i class="bx bx-menu"></i>
+              </div>
+            </nav>
+            <img src="./pictures/gamble-cover.jpg" class="song-img" />
+            <h1>Gamble</h1>
+            <p>Alys, fcj, demxntia</p>
+
+            <audio id="song1">
+              <source
+                src="./pictures/gamble (feat. demxntia).mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+            <input type="range" value="0" id="progress1" />
+            <div class="controls">
+              <div><i class="bx bxs-chevrons-left"></i></div>
+              <div onclick="playPause('song1', 'ctrlIcon1', 'progress1')">
+                <i class="bx bx-play" id="ctrlIcon1"></i>
+              </div>
+              <div><i class="bx bxs-chevrons-right"></i></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second song -->
+
+        <div class="container-song">
+          <div class="music-player">
+            <nav id="music-nav">
+              <div class="circle">
+                <i class="bx bxs-chevron-left"></i>
+              </div>
+              <div class="circle">
+                <i class="bx bx-menu"></i>
+              </div>
+            </nav>
+            <img src="./pictures/come-over-cover.jpg" class="song-img" />
+            <h1>Come Over</h1>
+            <p>Alys, fcj</p>
+
+            <audio id="song2">
+              <source
+                src="./pictures/fcj - come over (w alys).mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+            <input type="range" value="0" id="progress2" />
+            <div class="controls">
+              <div><i class="bx bxs-chevrons-left"></i></div>
+              <div onclick="playPause('song2', 'ctrlIcon2', 'progress2')">
+                <i class="bx bx-play" id="ctrlIcon2"></i>
+              </div>
+              <div><i class="bx bxs-chevrons-right"></i></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Third Song -->
+
+        <div class="container-song">
+          <div class="music-player">
+            <nav id="music-nav">
+              <div class="circle">
+                <i class="bx bxs-chevron-left"></i>
+              </div>
+              <div class="circle">
+                <i class="bx bx-menu"></i>
+              </div>
+            </nav>
+            <img src="./pictures/by my side-cover.jpg" class="song-img" />
+            <h1>By My Side</h1>
+            <p>Alys, fcj, myno</p>
+
+            <audio id="song3">
+              <source
+                src="./pictures/by my side (feat. myno).mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+            <input type="range" value="0" id="progress3" />
+            <div class="controls">
+              <div><i class="bx bxs-chevrons-left"></i></div>
+              <div onclick="playPause('song3', 'ctrlIcon3', 'progress3')">
+                <i class="bx bx-play" id="ctrlIcon3"></i>
+              </div>
+              <div><i class="bx bxs-chevrons-right"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="video">
+      <div class="title-music">
+        <h1 class="first-line" data-aos="fade-up">Video</h1>
+      </div>
+      <div class="vid-container">
+        <video src="./pictures/toledo-vid.mp4" class="vid" controls></video>
+      </div>
+    </section> -->
+
+    <div class="spacer-section">
+      <div class="spacer-container"></div>
+    </div>
+
+    <section id="gallery">
+      <div class="title-music"><h1 class="first-line">Photos</h1></div>
+      <div class="gallery-container">
+        <div class="left-gallery">
+          <img src="./pictures/more-pic-1.jpg" class="left-photo" />
+        </div>
+        <div class="mid-gallery1">
+          <img src="./pictures/profile-pic.jpg" class="mid-photo" />
+        </div>
+        <div class="right-gallery">
+          <img src="./pictures/more-pic-2.jpg" class="right-photo" />
+        </div>
+      </div>
+      <div class="gallery-container">
+        <div class="left-gallery">
+          <img src="./pictures/me-1.jpeg" class="left-photo2" />
+        </div>
+        <div class="mid-gallery">
+          <img src="./pictures/more-pic-5.jpg" class="mid-photo" />
+        </div>
+        <div class="right-gallery">
+          <img src="./pictures/more-pic-7.jpg" class="right-photo2" />
+        </div>
+      </div>
+      <div class="gallery-container">
+        <div class="left-gallery">
+          <img src="./pictures/more-pic-8.jpg" class="left-photo3" />
+        </div>
+        <div class="mid-gallery">
+          <img src="./pictures/more-pic-1.jpg" class="mid-photo" />
+        </div>
+        <div class="right-gallery">
+          <img src="./pictures/more-pic-3.png" class="right-photo3" />
+        </div>
+      </div>
+    </section>
+
+    <section id="video">
+      <div class="vid-vid-container">
+        <div class="title-music" data-aos="fade-up">
+          <h1 class="first-line">Video Gallery</h1>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="feature-img">
+              <img src="./pictures/about-me-vid-cover.png" width="100%" />
+              <img
+                src="./pictures/play.png"
+                class="play-btn"
+                onclick="playVideo('./pictures/about-me-vid.mp4')"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="small-img-row">
+              <div class="small-img">
+                <img src="./pictures/mv-cover.png" class="img-cover" />
+                <img
+                  src="./pictures/play.png"
+                  class="play-btn"
+                  onclick="playVideo('./pictures/mv-vid.mp4')"
+                />
+              </div>
+              <p>Grade 12 MV Project: "Hanggang Nakilala Sya"</p>
+            </div>
+            <div class="small-img-row">
+              <div class="small-img">
+                <img src="./pictures/cafetolio-cover.png" class="img-cover" />
+                <img
+                  src="./pictures/play.png"
+                  class="play-btn"
+                  onclick="playVideo('./pictures/cafetolio.mp4')"
+                />
+              </div>
+              <p>Grade 12 Project: Boost a Selected Business</p>
+            </div>
+            <div class="small-img-row">
+              <div class="small-img">
+                <img src="./pictures/pos-cover.png" class="img-cover" />
+                <img
+                  src="./pictures/play.png"
+                  class="play-btn"
+                  onclick="playVideo('./pictures/pos.mp4')"
+                />
+              </div>
+              <p>Java System: MCDO POS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-player" id="videoPlayer">
+        <video width="100%" controls id="myVideo">
+          <source src="./pictures/toledo-vid.mp4" type="video/mp4" />
+        </video>
+        <img src="pictures/close.png" class="close-btn" onclick="stopVideo()" />
+      </div>
+    </section>
+
+    <section id="gradient">
+      <div class="blob-holder">
+        <div class="blob-outer-container">
+          <div class="blob-inner-container">
+            <div class="blob"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#music">Music</a></li>
+            <li><a href="#gallery">Photos</a></li>
+            <li><a href="#video">Videos</a></li>
+            <li><a href="page2.html">Previous Page</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Danesse Niña. All Rights Reserved.</p>
+    </footer>
+    <script>
+      function playPause(songId, ctrlIconId, progressId) {
+        let song = document.getElementById(songId);
+        let ctrlIcon = document.getElementById(ctrlIconId);
+        let progress = document.getElementById(progressId);
+
+        song.onloadedmetadata = function () {
+          progress.max = song.duration;
+          progress.value = song.currentTime;
+        };
+
+        if (ctrlIcon.classList.contains("bx-pause")) {
+          song.pause();
+          ctrlIcon.classList.remove("bx-pause");
+          ctrlIcon.classList.add("bx-play");
+        } else {
+          song.play();
+          ctrlIcon.classList.add("bx-pause");
+          ctrlIcon.classList.remove("bx-play");
+        }
+
+        setInterval(() => {
+          progress.value = song.currentTime;
+        }, 500);
+
+        progress.onchange = function () {
+          song.currentTime = progress.value;
+        };
+      }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
+
+    <script>
+      var videoPlayer = document.getElementById("videoPlayer");
+      var myVideo = document.getElementById("myVideo");
+
+      function stopVideo() {
+        videoPlayer.style.display = "none";
+      }
+
+      function playVideo(file) {
+        myVideo.src = file;
+        videoPlayer.style.display = "block";
+      }
+    </script>
+  </body>
+</html>
